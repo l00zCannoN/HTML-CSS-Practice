@@ -1,0 +1,49 @@
+Structure
+
+<html>
+  <head> --> Nothing to do with output only meta data
+    <title> Page Title </title>
+  </head>
+
+  <body> --> What displays
+    <h1> Heading </h1>
+    <p> This is a paragraph </p>
+    <p> Another paragraph </p>
+  </body>
+</html>
+
+Inline Elements | eg : <span> <img> <a> 
+  - Do not start on new line
+  - Take only necessary width
+
+Block Elements | eg : <div> <h1>-<h6> <p> <form>
+  - Start on New line
+  - Take full width available
+
+
+Tag Attributes
+
+<tagname key = "value"> content </tagname>
+
+eg : <a href="www.google.com">Google Search</a>
+
+- All tags have attributes
+- Provides info about an element
+- Placed within the start tag
+- key/ value pairs
+
+HTML 5 Semantic Tags | describes to both browser and developer
+
+<header></header>
+<footer></footer>
+<aside></aside>
+<main></main>
+<article></article>
+<nav></nav>
+<section></section>
+<details><details>
+
+in function all are just <div></div>
+
+
+
