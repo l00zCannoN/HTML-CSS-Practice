@@ -1,0 +1,57 @@
+CSS = Cascading Style Sheet
+
+Basically to style, design and layout the website
+
+Inline CSS : Directly in the HTML element (avoid)
+Internal CSS : Using <style> tag within single document
+External CSS : Linking an external css file
+
+Colors 
+
+- Color Name eg : color: green;
+- Hex eg : color : #00ff00;
+- RGB eg : color : rgb(0,255,0);
+
+ID vs Class
+
+both are used to select and style html elements
+functionally the same but use class to target a group of elements like all the buttons or links, use ID to target unique elements like "main-footer", don't repeat IDs
+
+Margin & Padding Syntax
+
+margin : top right bottom left;
+or
+margin : topbottom leftright
+
+want to style h1 inside class box ?
+
+.box h1 {
+
+}
+
+maybe h1,h2 but not h3 ?
+
+.box h1, .box h2 {
+
+}
+
+You can use float to arrange columns of an webpage...
+
+after using float on any div, create a new div under it and clear the floats.
+using 
+
+clear:both;
+
+Positioning in CSS
+
+- Static : default, renders elemnt in order of html
+- Relative : relative to normal position
+- Absolute : target position inside a relative element (if parent elemnt not relative it will use the entire html document as parent)
+- Fixed : fixed position in browser window
+- Initial : sets to default
+- Inherit : inherits from parent element
+
+Target nth li of ul or ol 
+.my-list li:nth-child(5){
+  background: yellow;
+}
